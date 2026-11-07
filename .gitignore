@@ -1,0 +1,33 @@
+# Dados da GEVACZ: não versionados. Ver dados/brutos/README.md.
+dados/brutos/*
+!dados/brutos/README.md
+dados/tratados/*
+!dados/tratados/.gitkeep
+dados/tratados_py/*
+!dados/tratados_py/.gitkeep
+
+# R
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# renv: a lock é versionada, a biblioteca não
+renv/library/
+renv/local/
+renv/staging/
+renv/python/
+
+# Quarto
+/.quarto/
+*_files/
+*_cache/
+
+# Python
+__pycache__/
+*.pyc
+
+# Sistema
+.DS_Store
+Thumbs.db
